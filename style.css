@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #333;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.login {
+}
+
+.links a,
+.login a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #333;
+  transition: all 0.5s linear;
+  padding: 6px;
+}
+.links a:hover {
+  background-color: pink;
+  border-radius: 8px;
+  color: #3a0f2f;
+}
+
+.fa-user {
+  font-size: 30px;
+  color: blueviolet;
+}
+
+.login a:hover {
+  color: goldenrod;
+}
