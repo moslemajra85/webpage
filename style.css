@@ -7,6 +7,8 @@
 body {
   font-family: sans-serif;
 }
+
+/* Navbar styles */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -48,4 +50,47 @@ body {
 
 .login a:hover {
   color: goldenrod;
+}
+
+/* Hero section styles */
+
+.hero {
+  background-image: url("./images/rocket1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero h1 {
+  color: rgb(235, 222, 222);
+}
+
+.hero p {
+  color: #fff;
+  width: 50%;
+  line-height: 30px;
+  font-size: 25px;
+}
+
+ 
+
+.btn {
+  padding: 12px 22px;
+  border-radius: 8px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: dodgerblue;
+  color: #fff;
+  font-size: 20px
 }
