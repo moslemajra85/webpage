@@ -79,8 +79,6 @@ body {
   font-size: 25px;
 }
 
- 
-
 .btn {
   padding: 12px 22px;
   border-radius: 8px;
@@ -92,5 +90,69 @@ body {
 .btn-primary {
   background-color: dodgerblue;
   color: #fff;
-  font-size: 20px
+  font-size: 20px;
+}
+
+.showcases {
+  padding: 20px;
+}
+.card {
+  width: 30%;
+  padding: 20px;
+  box-shadow:
+    rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+
+.description p {
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icons i {
+  font-size: 30px;
+  cursor: pointer;
+  transition: transform 0.5s linear;
+}
+
+.icons i:hover {
+  transform: scale(1.5);
+}
+
+.fa-earth-asia {
+  color: dodgerblue;
+}
+
+.fa-space-awesome {
+  color: greenyellow;
+}
+
+.fa-satellite {
+  color: goldenrod;
+}
+
+.showcases {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.line {
+  width: 30%;
+  height: 10px;
+  background-color: dodgerblue;
+  margin: 20px auto;
 }
