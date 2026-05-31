@@ -211,3 +211,68 @@ body {
   color: #333;
   font-size: 16px;
 }
+
+/* Sign Up Page style */
+
+.form-container {
+  padding: 20px 50px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.form-title {
+  color: dodgerblue;
+  font-size: 30px;
+  text-align: center;
+}
+
+.form-input {
+  margin-bottom: 15px;
+}
+
+.form-input label {
+  display: block;
+  margin-bottom: 8px;
+  color: dodgerblue;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  width: 50%;
+  border: 1px solid dodgerblue;
+  border-radius: 6px;
+  color: #d1d;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]:focus {
+  outline: none;
+}
+
+input[type="date"] {
+  padding: 10px;
+  border: 1px solid dodgerblue;
+  color: #d1d;
+  border-radius: 6px;
+  width: 50%;
+}
+
+input[type="date"]:focus {
+  outline: none;
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+}
+
+.btn-secondary {
+  width: 50%;
+  color: #fff;
+  background-color: black;
+  font-size: 20px;
+}
