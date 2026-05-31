@@ -26,9 +26,6 @@ body {
   gap: 20px;
 }
 
-.login {
-}
-
 .links a,
 .login a {
   text-decoration: none;
@@ -206,4 +203,11 @@ body {
 
 .form-group textarea:focus {
   outline: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #333;
+  font-size: 16px;
 }
